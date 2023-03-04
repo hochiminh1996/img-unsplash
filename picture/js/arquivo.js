@@ -34,6 +34,7 @@ function createImage() {
 
 }
 
+// a implementar
 function getColor(img) {
 }
 
