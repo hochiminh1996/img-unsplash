@@ -68,7 +68,9 @@ div>p {
 }
 
 @media(max-width:670px) {
-   
+    body{
+        height: auto;
+    }
     #principal {
         width: 100%;
         /* border: 1px solid red; */
