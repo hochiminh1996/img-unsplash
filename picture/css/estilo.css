@@ -29,6 +29,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 div#conteudo {
@@ -67,10 +68,7 @@ div>p {
 }
 
 @media(max-width:670px) {
-    body {
-        overflow: hidden;
-    }
-
+   
     #principal {
         width: 100vh;
         /* border: 1px solid red; */
