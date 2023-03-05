@@ -5,4 +5,6 @@
 
 <p>A aplicação foi desenvolvida com o objetivo de demonstrar como é possível utilizar uma API externa em uma aplicação web, além de mostrar como atualizar elementos HTML em tempo real com JavaScript.</p>
 
+<p>Portanto, se trata de uma aplicação bem simples que fiz em alguns minutos, justamente porque tive um pequeno senho com isso kkkk</p>
+
 </div>
