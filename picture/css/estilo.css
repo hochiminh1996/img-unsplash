@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-:root{
+:root {
     --font-padrao: "Bebas Neue", sans-serif;
 }
 
-body{
+body {
     background-color: rgba(0, 0, 0, 1);
 }
 
-h1{
+h1 {
     font-family: var(--font-padrao);
-    color:#e9e7ea;
+    color: #e9e7ea;
     padding: 10px 10px;
 }
 
 
-#principal{
+#principal {
     width: 100vw;
     height: 100vh;
     /* border: 1px solid; */
@@ -31,7 +31,7 @@ h1{
     justify-content: center;
 }
 
-div#conteudo{
+div#conteudo {
     display: flex;
     width: 600px;
     /* border: 1px solid; */
@@ -40,7 +40,7 @@ div#conteudo{
     justify-content: center;
 }
 
-#imagem{
+#imagem {
     border: 1px solid #f5f5f5;
     padding: 5px;
     background-position: center center;
@@ -51,14 +51,14 @@ div#conteudo{
     cursor: pointer;
 }
 
-#imagem:hover{
+#imagem:hover {
     opacity: 1;
     transition: all linear .5s;
     box-shadow: 0px 0px 10px #f5f5f5;
 }
 
 
-div>p{
+div>p {
     color: #c9e7ea;
     text-align: center;
     font-family: var(--font-padrao);
@@ -66,15 +66,18 @@ div>p{
     padding: 10px 10px;
 }
 
-@media(max-width:670px){
-    #principal{
-        width: 100vh;
-        /* border: 1px solid red; */
-        margin: 0 auto;
+@media(max-width:670px) {
+    body {
         overflow: hidden;
     }
 
-    #imagem{
+    #principal {
+        width: 100vh;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+    }
+
+    #imagem {
         max-width: 300px;
         max-height: 300px;
     }
