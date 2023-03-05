@@ -65,3 +65,16 @@ div>p{
     font-size: 1.5em;
     padding: 10px 10px;
 }
+
+@media(max-width:670px){
+    #principal{
+        width: 100%;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+    }
+
+    #imagem{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
