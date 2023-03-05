@@ -71,7 +71,7 @@ div>p{
         width: 100vh;
         /* border: 1px solid red; */
         margin: 0 auto;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     #imagem{
